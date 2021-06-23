@@ -95,32 +95,21 @@ Created by [Gitignore.io](https://www.gitignore.io/)
 
 *Based on Mac* <br>
 **From a Mac I still had to enable Apple Mail and set my mail reader preference to Outlook**<br>
-Open a new word doc and Click on Mailings, from drop down on *Start Mail Merge* select *Email Messages*<br>
+Generate a new csv file using the Python Scripts. You'll need to open it and Save As *.xslx*
+
+Open a new word doc and Click on Mailings, from drop down on *Start Mail Merge* and I select *Letters*<br>
 
 Now *Select Recipients* and choose *Use an Existing List..*
 ![select recipients](imgs/select_recipients.png)
 
 Add file and select entire workbook<br>
+![workbook](imgs/workbook.png)
 Now you can begin typeing your message, to add an individuals names from the *Insert Merge Field* section and chosing the header filed name
-![select recipients](imgs/insert_recipient_select_field.png)
 ![insert_recipients](imgs/insert_recipient.png)
-
-[![youtube](https://img.youtube.com/vi/yj_s3cdfVDY/0.jpg)](https://www.youtube.com/watch?v=yj_s3cdfVDY "YouTube Video")
-
-
-**What did work for me**
+![select recipients](imgs/insert_recipient_select_field.png)
 
 Using the *MailMerge.scpt*, steps to use
 
-- Open a word docment
-- Go to Mailings
-- Start Mail Merge => Letters
-- Select Recipients => Use Existing List
-- Select the list you created using the Python Script above
-- When prompted, allow permissions and select Entire Workbook
-![workbook](imgs/workbook.png)
-- Type message
-- Insert Merge Field => name
 - **Move Outlook to OFFLINE**
 - Finish & Merge => Merge to Email
 - Open Apple Script with editor
@@ -147,3 +136,5 @@ Highlight Startup and click *Modify*, here you can select or create a new folder
 ![Startup](imgs/Word_modify_startup.png)
 
 Now close Word; Once you open it again you will now see the Merge Tools
+
+[![youtube](https://img.youtube.com/vi/yj_s3cdfVDY/0.jpg)](https://www.youtube.com/watch?v=yj_s3cdfVDY "YouTube Video")
