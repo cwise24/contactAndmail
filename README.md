@@ -47,27 +47,27 @@ Structure types are:
 
 First Time
 
-Use `git clone git@gitlab.com:cwise24/f5_contacts` this will create a local folder with all the files needed
+Use `git clone git@github.com:cwise24/contactAndmail` this will create a local folder with all the files needed
 
 Start with `git pull` **ALWAYS**
 This will update your local files with any changes that may have been made.
 
 # Python
 
-From your terminal, `cd f5_contacts/Py_Scripts` so you are in the directory, from here it's a normal Python script<br>
+From your terminal, `cd contactAndmail/Py_Scripts` so you are in the directory, from here it's a normal Python script<br>
 `./locate.py`
 
 Example:
 
 ```
-cwise@FLD-ML-00021617 ~/Projects/f5_contacts
+cwise@FLD-ML-00021617 ~/Projects/contactAndmail
  % ./locate.py 
 Enter location to search by: 
          1 => LV 
          2 => AZ 
          3 => NM 
 1
-Enter company name you want to search by: boyd
+Enter company name you want to search by: companyA
 First Last email@boyd.com  702-123-1234
 ```
 # Py Program functions
