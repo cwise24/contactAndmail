@@ -139,3 +139,7 @@ Using the *MailMerge.scpt*, steps to use
 - Open Apple Script with editor
 
 ![AppleScript](imgs/appleScript.png)
+
+- Edit highlighted line for your file to attach; full path
+- Click play button
+- Once complete, turn outlook to online
