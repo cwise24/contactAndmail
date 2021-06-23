@@ -1,0 +1,10 @@
+set f to "Macintosh HD:Users:cwise:Documents:Customer:Newsletters:PDF:2021:Q2_2021_NL.pdf" as alias
+tell application "Microsoft Outlook"
+	
+	repeat with theMessage in the messages of the outbox
+		
+		make new attachment at the end of theMessage with properties {file:f}
+		
+	end repeat
+	
+end tell
