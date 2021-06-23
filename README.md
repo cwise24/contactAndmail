@@ -104,6 +104,7 @@ Now *Select Recipients* and choose *Use an Existing List..*
 
 Add file and select entire workbook<br>
 ![workbook](imgs/workbook.png)
+
 Now you can begin typeing your message, to add an individuals names from the *Insert Merge Field* section and chosing the header filed name
 ![insert_recipients](imgs/insert_recipient.png)
 ![select recipients](imgs/insert_recipient_select_field.png)
