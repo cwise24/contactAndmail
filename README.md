@@ -107,6 +107,30 @@ Now you can begin typeing your message, to add an individuals names from the *In
 
 [![youtube](https://img.youtube.com/vi/yj_s3cdfVDY/0.jpg)](https://www.youtube.com/watch?v=yj_s3cdfVDY "YouTube Video")
 
+
+**What did work for me**
+
+Using the *MailMerge.scpt*, steps to use
+
+- Open a word docment
+- Go to Mailings
+- Start Mail Merge => Letters
+- Select Recipients => Use Existing List
+- Select the list you created using the Python Script above
+- When prompted, allow permissions and select Entire Workbook
+![workbook](imgs/workbook.png)
+- Type message
+- Insert Merge Field => name
+- **Move Outlook to OFFLINE**
+- Finish & Merge => Merge to Email
+- Open Apple Script with editor
+
+![AppleScript](imgs/appleScript.png)
+
+- Edit highlighted line for your file to attach; full path
+- Click play button
+- Once complete, turn outlook to online
+
 # Mac use of Starup File
 
 **This (mail merge tool) did not work for me**
@@ -123,23 +147,3 @@ Highlight Startup and click *Modify*, here you can select or create a new folder
 ![Startup](imgs/Word_modify_startup.png)
 
 Now close Word; Once you open it again you will now see the Merge Tools
-
-**What did work for me**
-
-Using the *MailMerge.scpt*, steps to use
-
-- Open a word docment
-- Go to Mailings
-- Start Mail Merge => Letters
-- Select Recipients => Use Existing List
-- Type message
-- Insert Merge Field => name
-- **Move Outlook to OFFLINE**
-- Finish & Merge => Merge to Email
-- Open Apple Script with editor
-
-![AppleScript](imgs/appleScript.png)
-
-- Edit highlighted line for your file to attach; full path
-- Click play button
-- Once complete, turn outlook to online
