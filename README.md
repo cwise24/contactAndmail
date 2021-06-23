@@ -136,3 +136,6 @@ Using the *MailMerge.scpt*, steps to use
 - Insert Merge Field => name
 - **Move Outlook to OFFLINE**
 - Finish & Merge => Merge to Email
+- Open Apple Script with editor
+
+![AppleScript](imgs/appleScript.png)
