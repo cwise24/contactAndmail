@@ -118,12 +118,11 @@ Using the *MailMerge.scpt*, steps to use
 ![AppleScript](imgs/appleScript.png)
 
 - Edit highlighted line for your file to attach; full path
-- Click play button
-- Once complete, turn outlook to online
+- Click play button (this will take time to finish)
+- Once complete, uncheck Outlook Offine
 
-# Mac use of Starup File
+# Mac use of Starup File (this did NOT work for me)
 
-**This (mail merge tool) did not work for me**
 
 To setup the drop in file for Word I had to perform these steps
 
